@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="weather-card" aria-label="Weather dashboard">
+        <header class="card-top">
+          <h1>Weather Now</h1>
+          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+            <span class="sun" aria-hidden="true">☀</span>
+            <span class="moon" aria-hidden="true">☾</span>
+          </button>
+        </header>
+
+        <form id="weatherForm" class="search-row" autocomplete="off">
+          <label class="visually-hidden" for="cityInput">City name</label>
+          <input
+            id="cityInput"
+            type="text"
+            name="city"
+            placeholder="Search city (e.g., London)"
+            required
+          />
+          <button type="submit">Search</button>
+          <button type="button" id="geoButton" class="ghost-btn">Use My Location</button>
+        </form>
+
+        <p id="statusMessage" class="status" role="status" aria-live="polite"></p>
+
+        <section id="currentWeather" class="current-weather hidden" aria-live="polite">
+          <div class="weather-header">
+            <div>
+              <h2 id="cityName">-</h2>
+              <p id="weatherCondition">-</p>
+            </div>
+            <img id="weatherIcon" src="" alt="Weather icon" width="100" height="100" />
+          </div>
+
+          <p id="temperature" class="temp">--°C</p>
+
+          <div class="metrics">
+            <article>
+              <span>Humidity</span>
+              <strong id="humidity">--%</strong>
+            </article>
+            <article>
+              <span>Wind Speed</span>
+              <strong id="windSpeed">-- m/s</strong>
+            </article>
+          </div>
+        </section>
+
+        <section id="forecastSection" class="forecast hidden" aria-label="5-day forecast">
+          <h3>5-Day Forecast</h3>
+          <div id="forecastList" class="forecast-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
