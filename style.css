@@ -152,6 +152,7 @@ h1 {
   transform: translateY(-1px);
 }
 
+
 .ghost-btn {
   background: transparent;
   border: 1px solid var(--card-border);
