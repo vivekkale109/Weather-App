@@ -263,6 +263,7 @@ body.dark .metrics article {
   transition: transform 0.2s ease;
 }
 
+
 .forecast-item:hover {
   transform: translateY(-2px);
 }
