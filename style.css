@@ -223,10 +223,12 @@ body.dark .metrics article {
   background: rgba(25, 55, 80, 0.6);
 }
 
+
 .metrics span {
   color: var(--muted);
   font-size: 0.92rem;
 }
+
 
 .metrics strong {
   display: block;
@@ -234,19 +236,23 @@ body.dark .metrics article {
   font-size: 1.08rem;
 }
 
+
 .forecast {
   margin-top: 18px;
 }
 
+
 .forecast h3 {
   margin-bottom: 10px;
 }
+
 
 .forecast-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 10px;
 }
+
 
 .forecast-item {
   background: var(--surface);
