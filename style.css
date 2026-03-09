@@ -274,6 +274,7 @@ body.dark .metrics article {
   height: 52px;
 }
 
+
 .hidden {
   display: none;
 }
@@ -289,6 +290,7 @@ body.dark .metrics article {
   white-space: nowrap;
   border: 0;
 }
+
 
 @media (max-width: 640px) {
   .weather-card {
