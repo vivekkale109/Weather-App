@@ -303,11 +303,12 @@ body.dark .metrics article {
     grid-template-columns: 1fr;
   }
 
-  
+
   .metrics {
     grid-template-columns: 1fr;
   }
 
+  
   .weather-header {
     align-items: flex-start;
   }
