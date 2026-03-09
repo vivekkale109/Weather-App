@@ -101,6 +101,7 @@ h1 {
   transition: transform 0.2s ease, background 0.2s ease;
 }
 
+
 .theme-toggle:hover {
   transform: scale(1.04);
 }
