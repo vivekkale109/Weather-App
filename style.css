@@ -12,6 +12,7 @@
   --shadow: 0 20px 40px rgba(6, 34, 77, 0.22);
 }
 
+
 body.dark {
   --bg-1: #061b2c;
   --bg-2: #0f3c57;
@@ -29,6 +30,7 @@ body.dark {
 * {
   box-sizing: border-box;
 }
+
 
 body {
   margin: 0;
