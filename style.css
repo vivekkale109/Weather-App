@@ -298,10 +298,12 @@ body.dark .metrics article {
     border-radius: 18px;
   }
 
+
   .search-row {
     grid-template-columns: 1fr;
   }
 
+  
   .metrics {
     grid-template-columns: 1fr;
   }
