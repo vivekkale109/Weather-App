@@ -146,6 +146,7 @@ h1 {
   transition: background 0.2s ease, transform 0.2s ease;
 }
 
+
 .search-row button:hover {
   background: var(--accent-hover);
   transform: translateY(-1px);
