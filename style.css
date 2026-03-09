@@ -195,6 +195,7 @@ h1 {
   text-transform: capitalize;
 }
 
+
 .temp {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 800;
