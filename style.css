@@ -81,6 +81,7 @@ p {
   margin: 0;
 }
 
+
 h1 {
   font-size: clamp(1.25rem, 2vw, 1.7rem);
   font-weight: 800;
